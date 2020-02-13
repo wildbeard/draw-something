@@ -1,0 +1,27 @@
+{
+  "name": "draw-something",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules",
+    "serve": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildbeard/draw-something.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildbeard/draw-something/issues"
+  },
+  "homepage": "https://github.com/wildbeard/draw-something#readme"
+}
